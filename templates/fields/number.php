@@ -1,0 +1,2 @@
+<label class="fs-4" for="<?php echo esc_attr($id) ?>"><?php echo esc_attr( $name ) ?></label>
+<input type="number" min="<?php echo intval($min) ?>"  max="<?php echo intval($max) ?>" class="form-control" id="<?php echo esc_attr($id) ?>" name="<?php echo esc_attr($input_name) ?>" placeholder="<?php echo esc_attr($placeholder) ?>" />
